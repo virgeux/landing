@@ -1,11 +1,7 @@
 import React, { useEffect } from "react";
 const About = () => {
-  const sectionClass = {
-    backgroundImage:`url(${process.env.PUBLIC_URL}/assets/images/about-bg.png)`
-  };
- 
   return (
-    <section id="about" className="about" style={sectionClass}>
+    <section id="about" className="about">
       <div className="about-decor">
         <div className="about-circle1 purple-filter">
           <img src={`/assets/images/main-banner3.png`} alt="team1" />

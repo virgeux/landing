@@ -99,12 +99,6 @@
 	}
 }
 
-@media (min-width: 1500px) and (max-width: 1366px) {
-	.home-right {
-		margin-top: -30px;
-	}
-}
-
 @media (min-width: 991px) {
 	.navbar-expand-lg .navbar-collapse {
 		height: auto !important;
@@ -151,7 +145,6 @@
 		float: right;
 		position: absolute;
 		right: 0;
-		top: -50px;
 	}
 	.home-decor .home-circle1 {
 		top: 120px;
@@ -385,10 +378,6 @@
 	}
 	.team .team-circle3 {
 		display: none;
-	}
-	.home-right {
-		-webkit-transform: translateY(70px) !important;
-		transform: translateY(70px) !important;
 	}
 	.home-decor .home-circle1 {
 		top: 125px;
@@ -861,8 +850,6 @@
 	}
 	.home-right {
 		width: 100%;
-		-webkit-transform: translateY(0px);
-		transform: translateY(0px);
 	}
 	.about-decor .about-circle1 {
 		left: auto;

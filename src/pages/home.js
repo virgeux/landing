@@ -5,10 +5,6 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 const Home = () => {
-  const sectionClass = {
-    backgroundImage:`url(${process.env.PUBLIC_URL}/assets/images/home-bg.png)`
-  };
-  
   return (
     <div>
       <Menu homePage="home-one"/>
@@ -50,8 +46,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 offset-md-1">
-              <div className="home-right">
+            <div className="col-sm-6 offset-md-1 flex-y-center">
+              <div className="home-right flex-y-center">
                 <Tilt
                   options={{
                     perspective: 110,

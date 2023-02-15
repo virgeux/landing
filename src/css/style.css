@@ -206,6 +206,13 @@ section {
 	height: 100%;
 	filter: hue-rotate(80deg);
 	opacity: 0.75;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-size: cover;
+}
+.flex-y-center {
+	display: flex;
+	align-items: center;
 }
 .home .fp-tableCell {
 	display: block;
@@ -728,36 +735,6 @@ img.main-logo {
 	border-radius: 50%;
 	z-index: 0;
 }
-.home-two {
-	background-position: bottom;
-}
-.home-two .slide-cap-desc {
-	color: white;
-}
-.home-two .contain {
-	position: absolute;
-	top: calc(50% + 5px);
-	left: calc(50% + 10px);
-	margin-right: -50%;
-	-webkit-transform: translate(-50%, -100%);
-	transform: translate(-50%, -100%);
-}
-.home-three {
-	background-size: cover;
-	background-position: bottom;
-}
-.home-three .home-right {
-	-webkit-transform: translateY(175px);
-	transform: translateY(175px);
-}
-.home-three .contain {
-	position: absolute;
-	top: calc(50% - 10px);
-	left: 50%;
-	margin-right: -50%;
-	-webkit-transform: translate(-50%, -100%);
-	transform: translate(-50%, -100%);
-}
 .home-decor .home-circle1 {
 	position: absolute;
 	top: 185px;
@@ -790,10 +767,7 @@ img.main-logo {
 	font-size: 18px;
 }
 .home-right {
-	-webkit-transform: translateY(90px);
-	transform: translateY(90px);
 	width: 100%;
-	margin-top: 0px;
 }
 .slide-cap-desc {
 	color: white;
@@ -901,7 +875,7 @@ img.main-logo {
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-top: 0;
+	margin-top: 5rem;
 	position: relative;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -916,6 +890,8 @@ img.main-logo {
 	height: 100%;
 	filter: hue-rotate(80deg);
 	opacity: 0.75;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .about-decor .about-circle1 {
 	position: absolute;
