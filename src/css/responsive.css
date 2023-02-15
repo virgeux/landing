@@ -735,9 +735,6 @@
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
-	.theme-nav.darkHeader .navbar-brand img {
-		width: 120px;
-	}
 	.home-style-two .navbar-light .default-nav .navbar-nav .nav-link.active,
 	.three .navbar-light .default-nav .navbar-nav .nav-link.active {
 		color: #c99aff;
