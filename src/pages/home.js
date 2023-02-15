@@ -28,7 +28,7 @@ const Home = () => {
                   <h4 className="mt-3">Introducing</h4>
                   <h1>
                     <span className="f-bold">up</span>wife
-                    <span className="f-bold f-color">app</span>
+                    <span className="f-bold f-color">AI</span>
                   </h1>
                   <p>
                     We'll do the matching and leave you to the chatting. We make finding that special someone easy.
