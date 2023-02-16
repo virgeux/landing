@@ -29,7 +29,7 @@ const Footer = () => {
       </section>
 
       <div className="copyright-section index-footer">
-        <p>2023 &copy; Upwife, LLC.</p>
+        <p>2023 &copy; Pubkey Group, LLC.</p>
       </div>
 
       <div className="tap-top">
