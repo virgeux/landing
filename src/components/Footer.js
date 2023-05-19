@@ -16,7 +16,7 @@ const Footer = () => {
                           <img src={`/assets/images/icon/fotter-email.png`} alt="fotter-email" />
                         </div>
                         <div className="footer-address">
-                          <a href="mailto:inquiries@upwife.ai">inquiries@upwife.ai</a>
+                          <a href="mailto:inquiries@virgeux.com">inquiries@virgeux.com</a>
                         </div>
                       </li>
                     </ul>
@@ -29,7 +29,7 @@ const Footer = () => {
       </section>
 
       <div className="copyright-section index-footer">
-        <p>2023 &copy; Pubkey Group, LLC.</p>
+        <p>2023 &copy; Virgeux, LLC.</p>
       </div>
 
       <div className="tap-top">

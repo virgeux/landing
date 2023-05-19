@@ -27,21 +27,14 @@ const Home = () => {
                 <div>
                   <h4 className="mt-3">Introducing</h4>
                   <h1>
-                    <span className="f-bold">up</span>wife
-                    <span className="f-bold f-color">AI</span>
+                    <span className="">VIRGEUX</span>
+                    <span className="f-color f-bold">BOT</span>
                   </h1>
                   <p>
                     We'll do the matching and leave you to the chatting. We make finding that special someone easy.
                   </p>
-                  <a href="javascript" onClick={(e)=>{e.preventDefault()}}>
-                    <img src={`/assets/images/appstore.png`} alt="appstore" className="store" />
-                  </a>
-                  <a href="javascript" onClick={(e)=>{e.preventDefault()}}>
-                    <img
-                      className="ml-10 store"
-                      src={`/assets/images/play-store.png`}
-                      alt="play-store"
-                    />
+                  <a href="https://whop.com/virgeux" target="_blank" rel="noreferrer">
+                    <img src={`/assets/images/whop-link.png`} alt="whop" className="store" width="150" />
                   </a>
                 </div>
               </div>
@@ -56,7 +49,7 @@ const Home = () => {
                     scale: 1,
                   }}
                 >
-                  <img src={`/assets/images/upwife-logo-screenshot-angle-rt.png`} className="img-fluid" alt="mobile" />
+                  <img src={`/assets/images/tinder-preview-3d.png`} className="img-fluid" alt="mobile" />
                 </Tilt>
               </div>
             </div>

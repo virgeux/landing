@@ -21,7 +21,7 @@ const Feature = () => {
             <div className="row">
               <div className="col-sm-12 mrgn-md-top">
                 <h2 className="title">
-                  features of<span> upwife</span>
+                  features of<span> Virgeux</span>
                 </h2>
               </div>
               <div className="col-12 col-md-6">

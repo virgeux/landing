@@ -35,7 +35,7 @@ const Menu = () => {
           className="navbar-brand"
           href={`/`}
         >
-          <img src={`/assets/images/upwife-logo.png`} width="45" height="45" alt="logo" /><span className=" ml-2 ml-md-3 f-bold text-purple">Upwife</span>
+          <img src={`/assets/images/logo.png`} width="45" height="45" alt="logo" />
         </NavbarBrand>
         <NavbarToggler className="navbar-toggler" onClick={toggle} />
         <Collapse

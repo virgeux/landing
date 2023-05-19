@@ -16,10 +16,10 @@ const About = () => {
             <div className="about-contain">
               <div>
                 <h2 className="title">
-                  about the <span>upwife app</span>
+                  about the <span>virgeux bot</span>
                 </h2>
                 <p className="caption-about text-black">
-                  Upwife is an adaptable, result-driven, and easy to use app to find the love of your life. Using AI, we match you to your preferred partner on other dating apps so all you have to do is the talking.
+                  Virgeux is an adaptable, result-driven, and easy to use app to find the love of your life. Using AI, we match you to your preferred partner on other dating apps so all you have to do is the talking.
                 </p>
                 <div className="row sm-mb">
                   <div className="col-6">
@@ -71,23 +71,13 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="top-margin">
-                  <a href="#">
-                    <button
-                      type="button"
-                      className="btn btn-custom theme-color theme-color"
-                    >
-                      view demo
-                    </button>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
           <div className="col-md-7 d-medium-none">
             <div className="about-right">
               <div className="about-phone">
-                <img src={`/assets/images/upwife-logo-screenshot-angle-flat.png`} width="360" height="360" className="img-fluid" alt="aboutus" />
+                <img src={`/assets/images/tinder-app.png`} width="360" height="360" className="img-fluid" alt="aboutus" />
               </div>
             </div>
           </div>
